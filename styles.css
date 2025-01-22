@@ -9,7 +9,6 @@ body {
   font-family: "Outfit", sans-serif;
   background-image: url(resources/Background_image.svg);
   background-color: #121826;
-  padding: 2rem;
 }
 
 header {
@@ -19,7 +18,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .header-title {
@@ -33,7 +32,7 @@ header {
   font-size: 1rem;
   font-weight: 400;
   color: #9DA3AE;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .features {
