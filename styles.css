@@ -103,7 +103,7 @@ figure p {
   .features {
     display: grid;
     grid-template-columns: repeat(2, 316px);
-    column-gap: 2rem;
+    column-gap: 3rem;
   }
 
   .features figure:last-child {
