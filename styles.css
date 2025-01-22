@@ -1,0 +1,124 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-image: url(resources/Background_image.svg);
+  background-color: #121826;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.header-title {
+  align-self: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #E5E7EB;
+}
+
+.header-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #9DA3AE;
+  margin-bottom: 2rem;
+}
+
+.features {
+  display: grid;
+  justify-content: center;
+  row-gap: 2rem;
+}
+
+figure {
+  max-width: 316px;
+  padding: 1.5rem;
+  background-color: #212936;
+  border-radius: 0.75rem;
+}
+
+.icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  border: 1px transparent;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 100%;
+  max-width: 267px;
+  border-radius: 0.75rem;
+}
+
+figure p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #E5E7EB;
+  max-width: 240px;
+}
+
+.icon[data-icon-color="light-yellow"] {
+  background-color: #FCEED8;
+}
+
+.icon[data-icon-color="light-blue"] {
+  background-color: #DEE9FC;
+}
+
+.icon[data-icon-color="light-red"] {
+  background-color: #FBE5E6;
+}
+
+figcaption h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #E5E7EB;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px){
+  .header-title {
+    max-width: 460px;
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, 316px);
+    column-gap: 2rem;
+  }
+
+  .features figure:last-child {
+    grid-column: span 2;
+    justify-self: center;
+  }
+}
+
+@media (min-width: 1024px){
+  .features {
+    display: grid;
+    grid-template-columns: repeat(3, 316px);
+  }
+
+  .features figure:last-child {
+    grid-column: span 1;
+  }
+}
