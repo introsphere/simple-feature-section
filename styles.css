@@ -62,20 +62,6 @@ figure {
   margin-bottom: 1rem;
 }
 
-img {
-  width: 100%;
-  max-width: 267px;
-  border-radius: 0.75rem;
-}
-
-figure p {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  font-weight: 400;
-  color: #E5E7EB;
-  max-width: 240px;
-}
-
 .icon[data-icon-color="light-yellow"] {
   background-color: #FCEED8;
 }
@@ -88,11 +74,25 @@ figure p {
   background-color: #FBE5E6;
 }
 
+img {
+  width: 100%;
+  max-width: 267px;
+  border-radius: 0.75rem;
+}
+
 figcaption h3 {
   font-size: 1.25rem;
   font-weight: 600;
   color: #E5E7EB;
   margin-bottom: 1rem;
+}
+
+figure p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #9DA3AE;
+  max-width: 240px;
 }
 
 @media (min-width: 640px){
