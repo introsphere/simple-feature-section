@@ -26,7 +26,6 @@ header {
   font-size: 2.5rem;
   font-weight: 600;
   color: #E5E7EB;
-  letter-spacing: 1px;
 }
 
 .header-subtitle {
@@ -34,7 +33,6 @@ header {
   font-weight: 400;
   color: #9DA3AE;
   margin-bottom: 3rem;
-  letter-spacing: 0.2px;
 }
 
 .features {
@@ -48,7 +46,6 @@ figure {
   padding: 1.5rem;
   background-color: #212936;
   border-radius: 0.75rem;
-  letter-spacing: 0.2px;
 }
 
 .icon {
